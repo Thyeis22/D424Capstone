@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sand">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vacation Details"
+            android:textColor="@color/deepOcean"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vacation Title"
+            android:backgroundTint="@color/tropicalTeal"
+            android:textColor="@color/darkText"
+            android:textColorHint="@color/tealDark"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/hotelEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hotel / Place to Stay"
+            android:backgroundTint="@color/tropicalTeal"
+            android:textColor="@color/darkText"
+            android:textColorHint="@color/tealDark"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/startDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Start Date MM/dd/yyyy"
+            android:backgroundTint="@color/tropicalTeal"
+            android:textColor="@color/darkText"
+            android:textColorHint="@color/tealDark"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/endDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="End Date MM/dd/yyyy"
+            android:backgroundTint="@color/tropicalTeal"
+            android:textColor="@color/darkText"
+            android:textColorHint="@color/tealDark"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/saveVacationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Vacation"
+            android:backgroundTint="@color/oceanBlue"
+            android:textColor="@color/lightText"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/deleteVacationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Vacation"
+            android:backgroundTint="@color/sunsetOrange"
+            android:textColor="@color/lightText"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/shareVacationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Vacation Details"
+            android:backgroundTint="@color/tropicalTeal"
+            android:textColor="@color/lightText"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/startAlertButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Start Date Alert"
+            android:backgroundTint="@color/oceanBlue"
+            android:textColor="@color/lightText"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/endAlertButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set End Date Alert"
+            android:backgroundTint="@color/oceanBlue"
+            android:textColor="@color/lightText"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/excursionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Excursions"
+            android:backgroundTint="@color/tropicalTeal"
+            android:textColor="@color/lightText"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+</ScrollView>

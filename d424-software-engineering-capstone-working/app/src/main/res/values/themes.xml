@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="Theme.VacationScheduler" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/oceanBlue</item>
+        <item name="colorPrimaryVariant">@color/deepOcean</item>
+        <item name="colorOnPrimary">@color/lightText</item>
+
+        <item name="colorSecondary">@color/tropicalTeal</item>
+        <item name="colorSecondaryVariant">@color/tealDark</item>
+        <item name="colorOnSecondary">@color/lightText</item>
+
+        <item name="android:windowBackground">@color/sand</item>
+        <item name="android:statusBarColor">@color/deepOcean</item>
+
+    </style>
+
+</resources>

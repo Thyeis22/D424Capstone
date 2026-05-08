@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sand">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/reportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vacation Scheduler Report"
+                android:textColor="@color/deepOcean"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:paddingBottom="16dp" />
+
+            <TableLayout
+                android:id="@+id/reportTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/warmSand"
+                android:stretchColumns="*" />
+
+        </LinearLayout>
+    </ScrollView>
+</HorizontalScrollView>
